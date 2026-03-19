@@ -131,7 +131,7 @@
     
   ],
   [
-    Feb 2024 – present
+    Feb 2024 – Present
     
   ],
   main-column-second-row: [
