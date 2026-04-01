@@ -135,16 +135,15 @@
     
   ],
   main-column-second-row: [
-    - Performed structure-based virtual screening targeting a #emph[Staphylococcus aureus] functional fibril protein to identify modulators of amyloid assembly and biofilm formation
-    
-    - Conducted molecular dynamics simulations to characterize conformational transitions from α-helical monomers to β-sheet fibril states
-    
-    - Led a structure-based virtual screening campaign against essential bacterial proteins in #emph[Staphylococcus aureus] for antimicrobial discovery
-    
-    - Developed and maintained computational pipelines for docking, simulation, and trajectory analysis
+    - Developed Python-based #emph[scalable] computational pipelines for molecular docking and simulation, enabling #emph[high-throughput] screening and #emph[automated] trajectory analysis
 
-    - Developed a user-friendly software package for energy minimization of biomolecular structures, streamlining simulation and docking setup and preprocessing workflows
+    - Designed and implemented a #emph[modular] Python-based software package for biomolecular energy minimization using OpenMM, enabling #emph[reproducible and streamlined] simulation workflows
     
+    - Performed #emph[large-scale] structure-based virtual screening using Gnina targeting a #emph[Staphylococcus aureus] functional fibril protein to identify modulators of amyloid assembly and biofilm formation
+    
+    - Conducted molecular dynamics simulations using AMBER Force Fields to characterize conformational transitions from α-helical monomers to β-sheet fibril states
+    
+    - Led a structure-based virtual screening campaign using Gnina against essential bacterial proteins in #emph[Staphylococcus aureus] for antimicrobial discovery    
   ],
 )
 
@@ -158,6 +157,12 @@
     
   ],
   main-column-second-row: [
+    - Built a MATLAB-based control system for #emph[automated] optogenetic stimulation and electrophysiological recording coordinating experimental workflow in live-animal and patch-clamp setups
+    
+    - Developed Javascript-based #emph[automated] pipelines for tissue histology analysis, #emph[improving efficiency] and reproducibility of post-implantation assessments
+
+    - Designed MATLAB-based #emph[automated] experimental workflows to quantify insertion forces of neural probes, enabling #emph[systematic characterization] of mechanical interactions with tissue
+
     - Investigated substrate-induced damage in neural probes, evaluating the impact of material properties on neural tissue integrity
     
     - Tested Parylene-C optical waveguides for use as implantable optogenetic interfaces
@@ -168,10 +173,6 @@
 
     - Performed device characterization and validation, including optical and structural performance assessments
 
-    - Developed automated pipelines for tissue histology analysis, improving efficiency and reproducibility of post-implantation assessments
-
-    - Designed experimental workflows to quantify insertion forces of neural probes, enabling systematic characterization of mechanical interactions with tissue
-    
   ],
 )
 
@@ -181,10 +182,12 @@
     
   ],
   [
-    May 2021 – Aug 2021
+    Jan 2021 – Jan 2022
     
   ],
   main-column-second-row: [
+    - Contributed to #emph[high-throughput] sample processing and data analysis, ensuring data quality and reproducibility
+    
     - Performed bioassay development and validation for biologic therapeutics in a regulated laboratory environment
     
     - Conducted testing and analysis of monoclonal antibody candidates, including RSV and SARS-CoV-2 programs
@@ -195,7 +198,6 @@
     
     - Executed cell-based and biochemical assays to assess potency, activity, and stability of drug candidates
     
-    - Contributed to high-throughput sample processing and data analysis, ensuring data quality and reproducibility
     
   ],
 )
@@ -210,6 +212,10 @@
     
   ],
   main-column-second-row: [
+    - Designed and performed experiments to quantify cellular responses to mechanical stimuli
+
+    - Analyzed relationships between mechanical environment and cell fate decisions
+
     - Investigated cellular mechanosensitivity, focusing on how mechanical forces regulate cell behavior and differentiation
 
       - Analyzed imaging data using an in-house computational pipeline to quantify mechanical responses
@@ -219,10 +225,6 @@
     - Studied force-dependent neural differentiation in starfish as a model system for mechanoregulation
 
       - Performed confocal microscopy imaging to track cellular and nuclear dynamics for force estimation
-
-    - Designed and performed experiments to quantify cellular responses to mechanical stimuli
-
-    - Analyzed relationships between mechanical environment and cell fate decisions
     
   ],
 )
@@ -237,13 +239,13 @@
     
   ],
   main-column-second-row: [
+    - Designed and implemented a MATLAB-based mean squared displacement (MSD) #emph[automated] analysis pipeline to quantify diffusion dynamics of FG-nups
+
+    - Characterized FG-nup dynamics and nuclear pore gating mechanisms through #emph[integrated] imaging and computational analysis
+
     - Performed live-cell super-resolution microscopy to investigate the dynamics of nuclear pore complex (NPC) FG-nucleoporins
     
     - Assessed protease (3C)-mediated depletion of FG-nups to study their role in nucleocytoplasmic transport
-
-    - Designed and implemented a mean squared displacement (MSD) analysis pipeline to quantify diffusion dynamics of FG-nups
-
-    - Characterized FG-nup dynamics and nuclear pore gating mechanisms through integrated imaging and computational analysis
 
     - Co-authored multiple conference abstracts (Biophysical Journal, Molecular Biology of the Cell) and a pre-print currently under review
     
@@ -363,7 +365,7 @@
 
 #strong[Computational Chemistry & Molecular Modeling:] OpenMM, RDKit, AMBER, Gnina, Boltz, Chai
 
-#strong[Electrophysiology & Signal Processing:] Spike sorting (custom software development), Kilosort, Plexon
+#strong[Electrophysiology & Signal Processing:] Spike sorting (custom software development), Kilosort, Plexon, Axon, Intan
 
 #strong[Data Science & Scientific Computing:] Pandas, Polars, NumPy, SLURM
 
@@ -371,5 +373,5 @@
 
 #strong[Infrastructure & High-Performance Computing:] SQL, Zarr
 
-#strong[Research Expertise:] Molecular Biophysics; Structural Biology; Computer-Aided Drug Design; Computational Pipeline Development; Electrophysiology; Image Analysis; Signal Processing; High-Performance Computing
+#strong[Research Expertise:] Molecular Biophysics, Structural Biology, Computer-Aided Drug Design, Computational Pipeline Development, Electrophysiology, Image Analysis, Signal Processing, High-Performance Computing
 
