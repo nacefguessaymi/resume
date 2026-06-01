@@ -3,8 +3,8 @@
 // Put your personal information here, replacing mine
 #let name = "Nacef Guessaymi"
 #let location = "Pittsburgh, PA"
-#let email = "nacefguess@hotmail.com"
-#let github = "github.com/nacefguess"
+#let email = link("nacefguess@hotmail.com")[GitHub]
+#let github = "github.com/nacefguessaymi"
 #let linkedin = "https://www.linkedin.com/in/nacef-guessaymi-b4291295/"
 //#let phone = "+1 (xxx) xxx-xxxx"
 #let personal-site = "https://www.nacefguessaymi.com"
@@ -14,7 +14,7 @@
   // All the lines below are optional.
   // For example, if you want to to hide your phone number:
   // feel free to comment those lines out and they will not show.
-  location: location,
+  //location: location,
   email: email,
   github: github,
   linkedin: linkedin,
@@ -49,40 +49,45 @@
   degree: "PhD, Molecular Biophysics and Structural Biology",
 
   // Uncomment the line below if you want edu formatting to be consistent with everything else
-  // consistent: true
+  consistent: true
 )
-//- Cumulative GPA: 4.0\/4.0 | Dean's List, Harvey S. Mudd Merit Scholarship, National Merit Scholarship
 - Relevant Coursework: Molecular Biophysics, Neural Signal Processing, Computational Chemistry
 
 #edu(
   institution: "Temple University",
   location: "Philadelphia, PA",
   dates: dates-helper(start-date: "Aug 2013", end-date:"May 2017"),
-  degree: "Bachelor's of Science, Biophysics",
+  degree: "Bachelor of Science, Biophysics",
 )
-- Relavant Coursework: Medical Imaging Physics, Thermodynamics and Statistical Mechanics, Mathematical Physics
+- Relevant Coursework: Thermodynamics and Statistical Mechanics, Mathematical Physics
+
+== Skills
+- *Languages:* Python, MATLAB, Rust, SQL, Bash
+- *Scientific Computing:* NumPy, SciPy, Pandas, Polars, OpenMM, RDKit
+- *Machine Learning:* scikit-learn, XGBoost, model inference, descriptor-based prediction
+- *Infrastructure:* Linux, SLURM, Docker/Singularity, Pixi, Conda, Git
+- *Quantitative Methods:* Signal Processing, Statistical Modeling, Stochastic Simulation, Data Structures & Algorithms
 
 == Work Experience
 
 #work(
-  title: "Graduate Researcher",
+  title: "PhD Candidate",
   location: "Pittsburgh, PA",
   company: "University of Pittsburgh",
-  dates: dates-helper(start-date: "August 2024", end-date: "Present"),
+  dates: dates-helper(start-date: "August 2024", end-date: "Expected Dec 2026"),
 )
-- 
-- 
-- 
-
+- Developed Python-based scalable computational pipelines for molecular docking, simulation, and trajectory analysis
+- Designed and implemented a modular OpenMM-based software package for reproducible biomolecular energy minimization
+- Performed large-scale stochastic simulations using high-performance computing environments
 #work(
   title: "Graduate Researcher",
   location: "Pittsburgh, PA",
   company: "Carnegie Mellon University",
   dates: dates-helper(start-date: "Jan 2022", end-date: "Aug 2024"),
 )
-- 
-- 
-- 
+- Built MATLAB control systems for synchronized optogenetic stimulation and electrophysiology acquisition
+- Developed automated signal-processing and image-analysis pipelines for neural probe characterization
+- Designed quantitative workflows for analyzing insertion-force mechanics in neural interfaces 
 
 #work(
   title: "Scientist II",
@@ -90,47 +95,33 @@
   company: "Eurofins PSS",
   dates: dates-helper(start-date: "Jan 2021", end-date: "Jan 2022"),
 )
-- 
-- 
-- 
-- 
-
+- Performed high-throughput quantitative analysis and validation of biologic therapeutic assays under GMP standards
+- Processed and analyzed large experimental datasets for accelerated COVID-19 therapeutic programs
 #work(
   title: "Graduate Researcher",
-  location: "Silicon Suburb, CA",
-  company: "Bits & Bytes Consulting",
-  dates: dates-helper(start-date: "Jun 2022", end-date: "Aug 2022"),
+  location: "Pittsburgh, PA",
+  company: "Carnegie Mellon University",
+  dates: dates-helper(start-date: "Jun 2019", end-date: "Jan 2021"),
 )
-- 
-- 
+- Extracted motion features from live-cell microscopy using MATLAB image tracking
+- Extracted and analyzed cellular motion features to characterize force-dependent responses under cytoskeletal perturbations
 
 #work(
-  title:"Graduate Researcher"
+  title:"Graduate Researcher",
+  location: "Pittsburgh, PA",
+  company: "University of Pittsburgh",
+  dates: dates-helper(start-date: "Aug 2018", end-date: "Jun 2019"),
 )
--
--
--
+- Converted gel assay images into quantitative datasets
+- Fit binding curves in GraphPad Prism to estimate interaction parameters from biochemical assay data
+- Constructed a chimeric protein structure from template models to support molecular dynamics simulation setup
 
 #work(
-  title: "Undergradute Researcher"
+  title: "Undergraduate Researcher",
+  location: "Philadelphia, PA",
+  company: "Temple University",
+  dates: dates-helper(start-date: "Apr 2015", end-date: "Aug 2018"),
 )
--
--
--
-
-// #extracurriculars(
-//   activity: "Science Olympiad Volunteering",
-//   dates: "Sep 2023 --- Present"
-// )
-// - Volunteer and write tests for tournaments, including LA Regionals and SoCal State \@ Caltech
-
-// #certificates(
-//   name: "OSCP",
-//   issuer: "Offensive Security",
-//   // url: "",
-//   date: "Oct 2024",
-// )
-
-== Skills
-- *Programming Languages*: Python, Rust, Bash, Matlab
-- *Technologies*: Git, SLURM, Linux, Singularity, Docker, Machine Learning
+- Automated super-resolution microscopy workflows using ImageJ, Perl, and analysis macros
+- Quantified single-molecule motion from live-cell imaging using MATLAB diffusion and MSD analysis
+- Reconstructed 3D spatial maps from PSF localization data using Amira
