@@ -5,7 +5,7 @@
 #show: rendercv.with(
   name: "Nacef Guessaymi",
   footer: context { [#emph[Nacef Guessaymi -- #str(here().page())\/#str(counter(page).final().first())]] },
-  top-note: [ #emph[Last updated in March 2026] ],
+  top-note: [ #emph[Last updated in July 2026] ],
   locale-catalog-language: "en",
   page-size: "us-letter",
   page-top-margin: 0.7in,
@@ -25,11 +25,11 @@
   typography-line-spacing: 0.6em,
   typography-alignment: "justified",
   typography-date-and-location-column-alignment: right,
-  typography-font-family-body: "XCharter",
-  typography-font-family-name: "XCharter",
-  typography-font-family-headline: "XCharter",
-  typography-font-family-connections: "XCharter",
-  typography-font-family-section-titles: "XCharter",
+  typography-font-family-body: "New Computer Modern",
+  typography-font-family-name: "New Computer Modern",
+  typography-font-family-headline: "New Computer Modern",
+  typography-font-family-connections: "New Computer Modern",
+  typography-font-family-section-titles: "New Computer Modern",
   typography-font-size-body: 10pt,
   typography-font-size-name: 25pt,
   typography-font-size-headline: 10pt,
@@ -77,8 +77,8 @@
   entries-highlights-space-between-bullet-and-text: 0.3em,
   date: datetime(
     year: 2026,
-    month: 3,
-    day: 19,
+    month: 7,
+    day: 7,
   ),
 )
 
@@ -256,6 +256,59 @@
 
 #regular-entry(
   [
+    #strong[Small Molecule Drugs Targeting _S. aureus_]
+    
+  ],
+  [
+    _in preparation_
+    
+  ],
+  main-column-second-row: [
+
+  #strong[Guessaymi N. M.], Durrant J., et al 
+
+  ],
+)
+
+
+
+#regular-entry(
+  [
+    #strong[Small Molecule Inhibitors for Functional Amyloids]
+    
+  ],
+  [
+    _in submission_
+    
+  ],
+  main-column-second-row: [
+
+  #strong[Guessaymi N. M.], Byeon C. H., Tunc A., Rempuszewski J. J., Hansen K. H., Maldonado A. M., Urish K., Andreasen M., Durrant J., Akbey Ü 
+
+  ],
+)
+
+
+#regular-entry(
+  [
+    #strong[Structural and functional diversity of cerebrospinal fluid-derived α-synuclein fibrils in Parkinson’s disease and multiple system atrophy]
+    
+  ],
+  [
+    _under revision_
+    
+  ],
+  main-column-second-row: [
+
+  Gram H., Ollier C., Hansen K. H., Marchand T. L., Byeon C. H., Tunc A., #strong[Guessaymi N. M.], Drace, T., Boggild A., Hermansholm A. K. R., Jorgensen T. J. D., Boesen T., Pintacuda G., Jensen P. H., Akbey Ü. 
+
+  (Nature Communications, Submitted 10th March, 2026)
+
+  ],
+)
+
+#regular-entry(
+  [
     #strong[Exploring cellular gateways: unraveling the secrets of disordered proteins within live nuclear pores]
     
   ],
@@ -264,7 +317,7 @@
     
   ],
   main-column-second-row: [
-    Yu, W., Tingey, M., Kelich, J. M., Li, Y., Yu, J., Junod, S. L., Jiang, Z., Hansen, I., #strong[Guessaymi, N.], Yang, W.
+    Yu W., Tingey M., Kelich J. M., Li Y., Yu J., Junod S. L., Jiang Z., Hansen I., #strong[Guessaymi N.], Yang W.
     
     #link("https://doi.org/10.21203/rs.3.rs-3504130/v1")[10.21203/rs.3.rs-3504130/v1] (Nature Portfolio 2024)
     
@@ -281,7 +334,7 @@
     
   ],
   main-column-second-row: [
-    Reddy, J. W., Jain, V., #strong[Guessaymi, N.], Malekoshoaraie, M. H., Chamanzar, M.
+    Reddy J. W., Jain V., #strong[Guessaymi N.], Malekoshoaraie M. H., Chamanzar M.
     
     #link("https://doi.org/10.1117/12.2651613")[10.1117/12.2651613] (Proceedings of SPIE, Vol. 12366, SPIE Photonics West (2023))
     
@@ -300,7 +353,7 @@
     
   ],
   main-column-second-row: [
-    Yu, W., Tingey, M., Kelich, J., Li, Y., Yu, J., Junod, S. L., Jiang, Z., Hansen, I., #strong[Guessaymi, N.], et al.
+    Yu W., Tingey M., Kelich J., Li Y., Yu J., Junod S. L., Jiang Z., Hansen I., #strong[Guessaymi N.], et al.
     
     #link("https://doi.org/10.1016/j.bpj.2023.11.500")[10.1016/j.bpj.2023.11.500] (Biophysical Society)
     
@@ -316,7 +369,7 @@
     
   ],
   main-column-second-row: [
-    #strong[Guessaymi, N. M.], Jain, V., Malekoshoaraie, M. H., Sarna, K., Reddy, J. W., Chamanzar, M.
+    #strong[Guessaymi N. M.], Jain V., Malekoshoaraie M. H., Sarna K., Reddy J. W., Chamanzar M.
     
     10th Annual Brain Initiative Meeting (2023)
     
@@ -333,7 +386,7 @@
     
   ],
   main-column-second-row: [
-    Yu, J., Kelich, J., Li, Y., Kim, J., #strong[Guessaymi, N.], Klein, M., & Yang, W. 
+    Yu J., Kelich J., Li Y., Kim J., #strong[Guessaymi N.], Klein M., & Yang W. 
     
     Molecular Biology of The Cell (2017)
     
@@ -341,6 +394,18 @@
 )
 
 == TALKS & PRESENTATIONS
+#regular-entry(
+  [
+    #strong[Computer-Aided Drug Design of S. Aureus Functional Fibril Inhibitors]
+    
+  ],
+  [
+    Jan 2023
+    
+  ],
+)
+
+
 #regular-entry(
   [
     #strong[In vivo optogenetic stimulation using Parylene photonic waveguides for light delivery]
