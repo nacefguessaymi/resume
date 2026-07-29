@@ -1,4 +1,5 @@
 #import "@preview/scienceicons:0.1.0": orcid-icon
+#import "@preview/fontawesome:0.6.0": *
 
 #let resume(
   author: "",
@@ -91,8 +92,8 @@
         let items = (
           contact-item(pronouns),
           contact-item(phone, link-type: "tel:"),
-          contact-item(location),
-          contact-item(email, link-type: "mailto:"),
+          contact-item(location, prefix: [#fa-location-dot() #h(0.3em)]),
+          contact-item(email, prefix: [#fa-envelope() #h(0.3em)], link-type: "mailto:"),
           contact-item(github, link-type: "https://"),
           contact-item(linkedin, link-type: "https://"),
           contact-item(personal-site, link-type: "https://"),

@@ -1,9 +1,9 @@
-#import "@preview/basic-resume:0.2.8": *
+#import "resume.typ": *
 
 // Put your personal information here, replacing mine
 #let name = "Nacef Guessaymi"
 #let location = "Pittsburgh, PA"
-#let email = link("nacefguess@hotmail.com")[GitHub]
+#let email = "nacefguess@hotmail.com"
 #let github = "github.com/nacefguessaymi"
 #let linkedin = "https://www.linkedin.com/in/nacef-guessaymi-b4291295/"
 //#let phone = "+1 (xxx) xxx-xxxx"
@@ -43,7 +43,7 @@
 == Education
 
 #edu(
-  institution: "University of Pittsburgh",
+  institution: "University of Pittsburgh and Carnegie Mellon University",
   location: "Pittsburgh, PA",
   dates: dates-helper(start-date: "Aug 2018", end-date: "Current"),
   degree: "PhD, Molecular Biophysics and Structural Biology",
@@ -92,7 +92,7 @@
 #work(
   title: "Scientist II",
   location: "Gaithersburg, MD",
-  company: "Eurofins PSS",
+  company: "Astrazeneca (Eurofins PSS)",
   dates: dates-helper(start-date: "Jan 2021", end-date: "Jan 2022"),
 )
 - Performed high-throughput quantitative analysis and validation of biologic therapeutic assays under GMP standards
