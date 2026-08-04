@@ -5,9 +5,11 @@
 #let location = "Pittsburgh, PA"
 #let email = "nacefguess@hotmail.com"
 #let github = "github.com/nacefguessaymi"
-#let linkedin = "https://www.linkedin.com/in/nacef-guessaymi-b4291295/"
+#let linkedin = "linkedin.com/in/nacef-guessaymi-b4291295"
+#let orcid = "orcid.org/0000-0001-8459-6320"
 //#let phone = "+1 (xxx) xxx-xxxx"
-#let personal-site = "https://www.nacefguessaymi.com"
+#let personal-site = "nacefguessaymi.com"
+#let scholar = "scholar.google.com/citations?user=6fcKKiUAAAAJ&hl=en"
 
 #show: resume.with(
   author: name,
@@ -18,6 +20,8 @@
   email: email,
   github: github,
   linkedin: linkedin,
+  orcid: orcid,
+  scholar: scholar,
   //phone: phone,
   personal-site: personal-site,
   accent-color: "#26428b",

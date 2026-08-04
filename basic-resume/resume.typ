@@ -1,4 +1,3 @@
-#import "@preview/scienceicons:0.1.0": orcid-icon
 #import "@preview/fontawesome:0.6.0": *
 
 #let resume(
@@ -13,6 +12,7 @@
   phone: "",
   personal-site: "",
   orcid: "",
+  scholar: "",
   accent-color: "#000000",
   font: "New Computer Modern",
   paper: "us-letter",
@@ -76,8 +76,9 @@
   // Personal Info Helper
   let contact-item(value, prefix: "", link-type: "") = {
     if value != "" {
+      let hidden = text(size: 0.1pt, fill: rgb(255,255,255,0))[#value]
       if link-type != "" {
-        link(link-type + value)[#(prefix + value)]
+        link(link-type + value)[#box(prefix)#hidden]
       } else {
         value
       }
@@ -93,11 +94,12 @@
           contact-item(pronouns),
           contact-item(phone, link-type: "tel:"),
           contact-item(location, prefix: [#fa-location-dot() #h(0.3em)]),
-          contact-item(email, prefix: [#fa-envelope() #h(0.3em)], link-type: "mailto:"),
-          contact-item(github, link-type: "https://"),
-          contact-item(linkedin, link-type: "https://"),
-          contact-item(personal-site, link-type: "https://"),
-          contact-item(orcid, prefix: [#orcid-icon(color: rgb("#AECD54"))orcid.org/], link-type: "https://orcid.org/"),
+          contact-item(email, prefix: [#fa-envelope(solid: true) #h(0.3em)], link-type: "mailto:"),
+          contact-item(github, prefix: [#fa-github() #h(0.3em)], link-type: "https://"),
+          contact-item(linkedin, prefix: [#fa-linkedin() #h(0.3em)], link-type: "https://"),
+          contact-item(personal-site, prefix: [#fa-globe(solid: true) #h(0.3em)], link-type: "https://"),
+          contact-item(orcid, prefix: [#fa-orcid() #h(0.3em)], link-type: "https://"),
+          contact-item(scholar, prefix: [#fa-google-scholar() #h(0.3em)], link-type: "https://"),
         )
         items.filter(x => x != none).join("  |  ")
       }
