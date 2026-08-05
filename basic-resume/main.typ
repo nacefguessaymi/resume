@@ -111,21 +111,36 @@
 - Extracted and analyzed cellular motion features to characterize force-dependent responses under cytoskeletal perturbations
 
 #work(
-  title:"Graduate Researcher",
-  location: "Pittsburgh, PA",
-  company: "University of Pittsburgh",
-  dates: dates-helper(start-date: "Aug 2018", end-date: "Jun 2019"),
-)
-- Converted gel assay images into quantitative datasets
-- Fit binding curves in GraphPad Prism to estimate interaction parameters from biochemical assay data
-- Constructed a chimeric protein structure from template models to support molecular dynamics simulation setup
-
-#work(
   title: "Undergraduate Researcher",
   location: "Philadelphia, PA",
   company: "Temple University",
   dates: dates-helper(start-date: "Apr 2015", end-date: "Aug 2018"),
 )
-- Automated super-resolution microscopy workflows using ImageJ, Perl, and analysis macros
 - Quantified single-molecule motion from live-cell imaging using MATLAB diffusion and MSD analysis
 - Reconstructed 3D spatial maps from PSF localization data using Amira
+
+== Projects
+
+#project(
+  name: "Amyloid Fibril Inhibitor Virtual Screening",
+  dates: "2024 – Present",
+)
+- Screened a compound library against a protein target, ranking candidates by neural-network scores
+- Applied clustering and dimensionality reduction (HDBSCAN, UMAP) to assess library diversity and screening convergence
+#strong[Stack:] Python, RDKit, MDAnalysis, Polars, scikit-learn
+
+#project(
+  name: "Amyloid Molecular Dynamics Simulation",
+  dates: "2024 – Present",
+)
+- Large-scale stochastic simulation; optimized simulation parameters, random initial conditions, and automated topology generation
+- Built checkpoint/restart tooling to resume long-running trajectories
+#strong[Stack:] Python, OpenMM, AmberTools, MDAnalysis, Ray, SciPy
+
+#project(
+  role: "Contributor",
+  name: "AqSolPred-web",
+  url: "github.com/nacefguessaymi/AqSolPred-web",
+)
+- Refactored an aqueous-solubility prediction model into a deployable web application for batch inference
+#strong[Stack:] Python, scikit-learn, XGBoost

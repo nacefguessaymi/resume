@@ -16,8 +16,8 @@
   accent-color: "#000000",
   font: "New Computer Modern",
   paper: "us-letter",
-  author-font-size: 20pt,
-  font-size: 10pt,
+  author-font-size: 18pt,
+  font-size: 9pt,
   lang: "en",
   body,
 ) = {
@@ -196,24 +196,22 @@
   url: "",
   dates: "",
 ) = {
+  let hidden-url = if url != "" {
+    text(size: 0.1pt, fill: rgb(255,255,255,0))[#url]
+  } else { none }
   generic-one-by-two(
     left: {
       if role == "" {
-        [*#name* #if url != "" and dates != "" [ (#link("https://" + url)[#url])]]
+        [*#name*#if url != "" [ #link("https://" + url)[#box(fa-github())]#hidden-url]]
       } else {
-        [*#role*, #name #if url != "" and dates != ""  [ (#link("https://" + url)[#url])]]
+        [*#role*, #name#if url != "" [ #link("https://" + url)[#box(fa-github())]#hidden-url]]
       }
     },
     right: {
-      if dates == "" and url != "" {
-        link("https://" + url)[#url]
-      } else {
-        dates
-      }
+      dates
     },
   )
 }
-
 #let certificates(
   name: "",
   issuer: "",
