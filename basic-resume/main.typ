@@ -127,7 +127,7 @@
 )
 - Screened a compound library against a protein target, ranking candidates by neural-network scores
 - Applied clustering and dimensionality reduction (HDBSCAN, UMAP) to assess library diversity and screening convergence
-#strong[Stack:] Python, RDKit, MDAnalysis, Polars, scikit-learn
+#strong[Stack:] Python, RDKit, Gnina, Polars, scikit-learn
 
 #project(
   name: "Amyloid Molecular Dynamics Simulation",
@@ -135,7 +135,7 @@
 )
 - Large-scale stochastic simulation; optimized simulation parameters, random initial conditions, and automated topology generation
 - Built checkpoint/restart tooling to resume long-running trajectories
-#strong[Stack:] Python, OpenMM, AmberTools, MDAnalysis, Ray, SciPy
+#strong[Stack:] Python, AMBER (pmemd), AmberTools, MDAnalysis, Ray, SciPy
 
 #project(
   role: "Contributor",
