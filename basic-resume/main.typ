@@ -62,6 +62,8 @@
   location: "Philadelphia, PA",
   dates: dates-helper(start-date: "Aug 2013", end-date:"May 2017"),
   degree: "Bachelor of Science, Biophysics",
+  consistent: true
+
 )
 - Relevant Coursework: Thermodynamics and Statistical Mechanics, Mathematical Physics
 
