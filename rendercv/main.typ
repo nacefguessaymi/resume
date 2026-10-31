@@ -5,7 +5,7 @@
 #show: rendercv.with(
   name: "Nacef Guessaymi",
   footer: context { [#emph[Nacef Guessaymi -- #str(here().page())\/#str(counter(page).final().first())]] },
-  top-note: [ #emph[Last updated in July 2026] ],
+  top-note: [ #emph[Last updated in October 2026] ],
   locale-catalog-language: "en",
   page-size: "us-letter",
   page-top-margin: 0.7in,
@@ -77,8 +77,8 @@
   entries-highlights-space-between-bullet-and-text: 0.3em,
   date: datetime(
     year: 2026,
-    month: 7,
-    day: 7,
+    month: 10,
+    day: 30,
   ),
 )
 
@@ -101,7 +101,7 @@
     
   ],
   [
-    Sept 2018 – Present
+    Sep 2018 – Present
     
   ],
   main-column-second-row: [
@@ -115,7 +115,7 @@
     
   ],
   [
-    Sept 2013 – May 2017
+    Sep 2013 – May 2017
     
   ],
   main-column-second-row: [
@@ -208,7 +208,7 @@
     
   ],
   [
-    June 2019 – Sep 2020
+    Jun 2019 – Sep 2020
     
   ],
   main-column-second-row: [
@@ -235,19 +235,19 @@
     
   ],
   [
-    April 2015 – Aug 2018
+    Apr 2015 – Aug 2018
     
   ],
   main-column-second-row: [
-    - Designed and implemented a MATLAB-based mean squared displacement (MSD) #emph[automated] analysis pipeline to quantify diffusion dynamics of FG-nups
+    - Designed and implemented a MATLAB-based mean squared displacement (MSD) #emph[automated] analysis pipeline to quantify diffusion dynamics of FG nups
 
-    - Characterized FG-nup dynamics and nuclear pore gating mechanisms through #emph[integrated] imaging and computational analysis
+    - Characterized FG nup dynamics and nuclear pore gating mechanisms through #emph[integrated] imaging and computational analysis
 
     - Performed live-cell super-resolution microscopy to investigate the dynamics of nuclear pore complex (NPC) FG-nucleoporins
     
-    - Assessed protease (3C)-mediated depletion of FG-nups to study their role in nucleocytoplasmic transport
+    - Assessed protease (3C)-mediated depletion of FG nups to study their role in nucleocytoplasmic transport
 
-    - Co-authored multiple conference abstracts (Biophysical Journal, Molecular Biology of the Cell) and a pre-print currently under review
+    - Co-authored multiple conference abstracts (Biophysical Journal, Molecular Biology of the Cell) and a Nature Communications article (2026)
     
   ],
 )
@@ -265,7 +265,7 @@
   ],
   main-column-second-row: [
 
-  #strong[Guessaymi N. M.], Durrant J., et al 
+  #strong[Guessaymi N. M.], Durrant J., et al. 
 
   ],
 )
@@ -283,7 +283,7 @@
   ],
   main-column-second-row: [
 
-  #strong[Guessaymi N. M.], Byeon C. H., Tunc A., Rempuszewski J. J., Hansen K. H., Maldonado A. M., Urish K., Andreasen M., Durrant J., Akbey Ü 
+  #strong[Guessaymi N. M.], Byeon C. H., Tunc A., Rempuszewski J. J., Hansen K. H., Maldonado A. M., Urish K., Andreasen M., Durrant J., Akbey Ü. 
 
   ],
 )
@@ -300,7 +300,7 @@
   ],
   main-column-second-row: [
 
-  Gram H., Ollier C., Hansen K. H., Marchand T. L., Byeon C. H., Tunc A., #strong[Guessaymi N. M.], Drace, T., Boggild A., Hermansholm A. K. R., Jorgensen T. J. D., Boesen T., Pintacuda G., Jensen P. H., Akbey Ü. 
+  Gram H., Ollier C., Hansen K. H., Marchand T. L., Byeon C. H., Tunc A., #strong[Guessaymi N. M.], Drace T., Boggild A., Hermansholm A. K. R., Jorgensen T. J. D., Boesen T., Pintacuda G., Jensen P. H., Akbey Ü. 
 
   (Nature Communications, Submitted 10th March, 2026)
 
@@ -309,18 +309,15 @@
 
 #regular-entry(
   [
-    #strong[Exploring cellular gateways: unraveling the secrets of disordered proteins within live nuclear pores]
-    
+    #strong[Live-cell 3D mapping reveals the organized architecture of FG-nucleoporins within the nuclear pore complex]
   ],
   [
-    Feb 2024
-    
+    Oct 2026
   ],
   main-column-second-row: [
-    Yu W., Tingey M., Kelich J. M., Li Y., Yu J., Junod S. L., Jiang Z., Hansen I., #strong[Guessaymi N.], Yang W.
-    
-    #link("https://doi.org/10.21203/rs.3.rs-3504130/v1")[10.21203/rs.3.rs-3504130/v1] (Nature Portfolio 2024)
-    
+    Yu W., Kelich J. M., Yu J., Tingey M., Li Y., Junod S. L., Jiang Z., Hansen I., #strong[Guessaymi N.], Yang W.
+
+    #link("https://doi.org/10.1038/s41467-026-78936-5")[10.1038/s41467-026-78936-5] (Nature Communications, 2026)
   ],
 )
 
@@ -330,7 +327,7 @@
     
   ],
   [
-    March 2023
+    Mar 2023
     
   ],
   main-column-second-row: [
@@ -345,11 +342,30 @@
 
 #regular-entry(
   [
+    #strong[Small Molecule Inhibitors for Functional Amyloids]
+    
+  ],
+  [
+    Nov 2026
+    
+  ],
+  main-column-second-row: [
+    #strong[Guessaymi N. M.], Akbey Ü., Durrant J.
+    
+    Pittsburgh Rust Belt Microbiome Conference
+    
+  ],
+
+)
+
+
+#regular-entry(
+  [
     #strong[Mapping intrinsically disordered proteins in live cells by high-speed super-resolution light microscopy]
     
   ],
   [
-    Feb. 2024
+    Feb 2024
     
   ],
   main-column-second-row: [
@@ -365,7 +381,7 @@
     
   ],
   [
-    June 2023
+    Jun 2023
     
   ],
   main-column-second-row: [
@@ -378,7 +394,7 @@
 )
 #regular-entry(
   [
-    #strong[Complete 3D mapping of FG domains for all eleven FG-Nups in living cell NPCs using super-resolution microscopy.]
+    #strong[Complete 3D mapping of FG domains for all eleven FG-Nups in living cell NPCs using super-resolution microscopy]
     
   ],
   [
@@ -386,7 +402,7 @@
     
   ],
   main-column-second-row: [
-    Yu J., Kelich J., Li Y., Kim J., #strong[Guessaymi N.], Klein M., & Yang W. 
+    Yu J., Kelich J., Li Y., Kim J., #strong[Guessaymi N.], Klein M., Yang W. 
     
     Molecular Biology of The Cell (2017)
     
@@ -394,26 +410,40 @@
 )
 
 == TALKS & PRESENTATIONS
+
 #regular-entry(
   [
-    #strong[Computer-Aided Drug Design of S. Aureus Functional Fibril Inhibitors]
-    
+    #strong[Small Molecule Inhibitors for Functional Amyloids]
   ],
   [
-    May 2026
-    
+    Nov 2026
+  ],
+  main-column-second-row: [
+    Pittsburgh Rust Belt Microbiome Conference
   ],
 )
 
+#regular-entry(
+  [
+    #strong[Computer-Aided Drug Design of _S. Aureus_ Functional Fibril Inhibitors]
+  ],
+  [
+    May 2026
+  ],
+  main-column-second-row: [
+    MBSB Symposium
+  ],
+)
 
 #regular-entry(
   [
     #strong[In vivo optogenetic stimulation using Parylene photonic waveguides for light delivery]
-    
   ],
   [
     Jan 2023
-    
+  ],
+  main-column-second-row: [
+    SPIE Photonics West
   ],
 )
 
