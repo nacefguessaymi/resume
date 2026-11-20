@@ -44,29 +44,6 @@
 * #generic-two-by-two(top-left: "", top-right: "", bottom-left: "", bottom-right: "")
 * #generic-one-by-two(left: "", right: "")
 */
-== Education
-
-#edu(
-  institution: "University of Pittsburgh and Carnegie Mellon University",
-  location: "Pittsburgh, PA",
-  dates: dates-helper(start-date: "Aug 2018", end-date: "Current"),
-  degree: "PhD, Molecular Biophysics and Structural Biology",
-
-  // Uncomment the line below if you want edu formatting to be consistent with everything else
-  consistent: true
-)
-- Relevant Coursework: Molecular Biophysics, Neural Signal Processing, Computational Chemistry
-
-#edu(
-  institution: "Temple University",
-  location: "Philadelphia, PA",
-  dates: dates-helper(start-date: "Aug 2013", end-date:"May 2017"),
-  degree: "Bachelor of Science, Biophysics",
-  consistent: true
-
-)
-- Relevant Coursework: Thermodynamics and Statistical Mechanics, Mathematical Physics
-
 == Skills
 - *Languages:* Python, MATLAB, Rust, SQL, Bash
 - *Scientific Computing:* NumPy, SciPy, Pandas, Polars, OpenMM, RDKit
@@ -146,3 +123,27 @@
 )
 - Refactored an aqueous-solubility prediction model into a deployable web application for batch inference
 #strong[Stack:] Python, scikit-learn, XGBoost
+
+== Education
+
+#edu(
+  institution: "University of Pittsburgh and Carnegie Mellon University",
+  location: "Pittsburgh, PA",
+  dates: dates-helper(start-date: "Aug 2018", end-date: "Current"),
+  degree: "PhD, Molecular Biophysics and Structural Biology",
+
+  // Uncomment the line below if you want edu formatting to be consistent with everything else
+  consistent: true
+)
+- Relevant Coursework: Molecular Biophysics, Neural Signal Processing, Computational Chemistry
+
+#edu(
+  institution: "Temple University",
+  location: "Philadelphia, PA",
+  dates: dates-helper(start-date: "Aug 2013", end-date:"May 2017"),
+  degree: "Bachelor of Science, Biophysics",
+  consistent: true
+
+)
+- Relevant Coursework: Thermodynamics and Statistical Mechanics, Mathematical Physics
+
